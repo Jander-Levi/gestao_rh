@@ -28,7 +28,7 @@ $profiles = [
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>G2G Payroll System</title>
+    <title>G2G Folha de Ponto</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -64,13 +64,12 @@ $profiles = [
                         </div>
                         <div>
                             <p class="text-sm font-medium uppercase tracking-[0.2em] text-explorer-muted">Sistema interno</p>
-                            <h1 class="text-3xl font-semibold text-slate-800">G2G Payroll System</h1>
-                            <p class="mt-1 text-sm text-explorer-muted">Ambiente visual para gestão de folhas de pagamento com navegação por perfis.</p>
+                            <h1 class="text-3xl font-semibold text-slate-800">G2G Folha de Ponto</h1>
+                            <p class="mt-1 text-sm text-explorer-muted">Ambiente visual para gestão de folhas de ponto com navegação por perfis.</p>
                         </div>
                     </div>
                     <div class="rounded-xl border border-explorer-line bg-white px-4 py-3 text-sm text-explorer-muted">
-                        <p class="font-medium text-slate-700">Este Computador &gt; Disco Local (C:) &gt; xampp &gt; htdocs &gt; g2g</p>
-                        <p class="mt-1">Selecione abaixo o perfil para navegar pela interface demonstrativa.</p>
+                        <p class="font-medium text-slate-700">Selecione o perfil de acesso</p>
                     </div>
                 </div>
             </div>
@@ -81,9 +80,7 @@ $profiles = [
                         <p class="text-sm font-semibold text-slate-700">Escolha de perfil</p>
                         <p class="text-sm text-explorer-muted">Cada área abre uma interface específica com dados fictícios e fluxos simulados.</p>
                     </div>
-                    <div class="hidden rounded-lg border border-explorer-line bg-white px-3 py-2 text-xs font-medium text-explorer-muted md:block">
-                        Visual inspirado no Windows Explorer
-                    </div>
+
                 </div>
 
                 <div class="grid gap-6 lg:grid-cols-3">
@@ -94,10 +91,7 @@ $profiles = [
                             </div>
                             <h2 class="text-xl font-semibold text-slate-800"><?php echo $profile['title']; ?></h2>
                             <p class="mt-3 flex-1 text-sm leading-6 text-explorer-muted"><?php echo $profile['description']; ?></p>
-                            <div class="mt-6 flex items-center justify-between rounded-lg border border-explorer-line bg-explorer-soft px-3 py-2 text-xs text-explorer-muted">
-                                <span>Pasta de trabalho</span>
-                                <span class="font-medium text-slate-700"><?php echo $profile['title']; ?></span>
-                            </div>
+
                             <a href="<?php echo $profile['link']; ?>" class="mt-6 inline-flex items-center justify-center rounded-lg border border-[#b8cce1] bg-[#e7f1fb] px-4 py-3 text-sm font-semibold text-[#0f548c] transition hover:border-[#8eb6da] hover:bg-[#d8eafb]">
                                 <?php echo $profile['button']; ?>
                             </a>

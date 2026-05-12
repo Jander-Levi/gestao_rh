@@ -39,7 +39,7 @@ function statusBadge(string $status): string
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Funcionário | G2G Payroll System</title>
+    <title>Funcionário | G2G Folha de Ponto</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -70,7 +70,7 @@ function statusBadge(string $status): string
             <div class="flex h-16 items-center gap-3 border-b border-explorer-line px-5">
                 <div class="flex h-10 w-10 items-center justify-center rounded-lg border border-[#d4b25a] bg-[#f7d873] text-xl">📄</div>
                 <div>
-                    <p class="text-sm font-semibold text-slate-800">G2G Payroll System</p>
+                    <p class="text-sm font-semibold text-slate-800">G2G Folha de Ponto</p>
                     <p class="text-xs text-explorer-muted">Portal do Funcionário</p>
                 </div>
             </div>
@@ -104,17 +104,7 @@ function statusBadge(string $status): string
             <main class="p-4 sm:p-6">
                 <div class="mb-6 rounded-xl border border-explorer-line bg-white shadow-sm">
                     <div class="flex flex-col gap-3 border-b border-explorer-line px-4 py-3 lg:flex-row lg:items-center lg:justify-between">
-                        <div class="flex flex-wrap items-center gap-2 text-sm text-explorer-muted">
-                            <span>Este Computador</span>
-                            <span>&gt;</span>
-                            <span>Disco Local (C:)</span>
-                            <span>&gt;</span>
-                            <span>xampp</span>
-                            <span>&gt;</span>
-                            <span>htdocs</span>
-                            <span>&gt;</span>
-                            <span class="font-semibold text-slate-700">g2g &gt; Funcionário</span>
-                        </div>
+                        <div></div>
                         <div class="rounded-lg border border-explorer-line bg-explorer-soft px-3 py-2 text-sm text-explorer-muted">
                             Colaborador: João Henrique Silva
                         </div>
@@ -211,7 +201,7 @@ function statusBadge(string $status): string
                             <h2 class="text-lg font-semibold text-slate-800">Pendências</h2>
                             <ul class="mt-4 space-y-3 text-sm text-explorer-muted">
                                 <li class="rounded-lg border border-yellow-200 bg-yellow-50 px-3 py-3 text-yellow-800">Assinatura da folha Abril/2026 aguardando confirmação.</li>
-                                <li class="rounded-lg border border-explorer-line bg-explorer-soft px-3 py-3">Atualização cadastral prevista para o próximo ciclo de pagamento.</li>
+                                <li class="rounded-lg border border-explorer-line bg-explorer-soft px-3 py-3">Atualização cadastral prevista para o próximo ciclo de ponto.</li>
                             </ul>
                         </div>
                     </section>

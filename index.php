@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - G2G Payroll System</title>
+    <title>Login - G2G Folha de Ponto</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
@@ -51,7 +51,7 @@
     
     <!-- Left Side: Image & Branding -->
     <div class="hidden lg:flex lg:w-1/2 relative overflow-hidden bg-slate-900">
-        <img src="login_bg.png" alt="G2G Payroll Background" class="absolute inset-0 w-full h-full object-cover opacity-80 mix-blend-overlay">
+        <img src="login_bg.png" alt="G2G Folha de Ponto Background" class="absolute inset-0 w-full h-full object-cover opacity-80 mix-blend-overlay">
         <div class="absolute inset-0 bg-gradient-to-t from-brand-900/90 via-brand-900/40 to-transparent"></div>
         
         <div class="relative z-10 flex flex-col justify-between p-16 h-full w-full">
@@ -67,7 +67,7 @@
                     Gestão inteligente para sua equipe.
                 </h1>
                 <p class="text-lg text-slate-300">
-                    Acompanhe folhas de pagamento, assine documentos e gerencie benefícios em uma plataforma segura e unificada.
+                    Acompanhe folhas de ponto, assine espelhos de ponto e gerencie horários em uma plataforma segura e unificada.
                 </p>
                 
                 <div class="mt-8 flex items-center gap-4">

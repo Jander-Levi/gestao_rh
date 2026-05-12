@@ -4,7 +4,7 @@ $menu = [
     'Usuários',
     'Funcionários',
     'Gestores',
-    'Folhas de Pagamento',
+    'Folhas de Ponto',
     'Assinaturas',
     'Histórico',
     'Configurações',
@@ -57,7 +57,7 @@ function statusBadge(string $status): string
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RH | G2G Payroll System</title>
+    <title>RH | G2G Folha de Ponto</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -88,7 +88,7 @@ function statusBadge(string $status): string
             <div class="flex h-16 items-center gap-3 border-b border-explorer-line px-5">
                 <div class="flex h-10 w-10 items-center justify-center rounded-lg border border-[#d4b25a] bg-[#f7d873] text-xl">📁</div>
                 <div>
-                    <p class="text-sm font-semibold text-slate-800">G2G Payroll System</p>
+                    <p class="text-sm font-semibold text-slate-800">G2G Folha de Ponto</p>
                     <p class="text-xs text-explorer-muted">Painel RH</p>
                 </div>
             </div>
@@ -127,17 +127,7 @@ function statusBadge(string $status): string
             <main class="p-4 sm:p-6">
                 <div class="mb-6 rounded-xl border border-explorer-line bg-white shadow-sm">
                     <div class="flex flex-col gap-3 border-b border-explorer-line px-4 py-3 sm:flex-row sm:items-center sm:justify-between">
-                        <div class="flex items-center gap-2 text-sm text-explorer-muted">
-                            <span>Este Computador</span>
-                            <span>&gt;</span>
-                            <span>Disco Local (C:)</span>
-                            <span>&gt;</span>
-                            <span>xampp</span>
-                            <span>&gt;</span>
-                            <span>htdocs</span>
-                            <span>&gt;</span>
-                            <span class="font-semibold text-slate-700">g2g &gt; RH</span>
-                        </div>
+                        <div></div>
                         <div class="flex flex-wrap gap-2">
                             <button class="rounded-lg border border-explorer-line bg-white px-3 py-2 text-sm text-slate-700 hover:bg-explorer-soft">Exportar</button>
                             <button class="rounded-lg border border-[#bfd4ea] bg-[#e9f2fb] px-3 py-2 text-sm font-medium text-[#0f548c] hover:bg-[#dcedfb]">Nova folha</button>
